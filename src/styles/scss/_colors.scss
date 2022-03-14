@@ -1,0 +1,81 @@
+@import "var";
+
+.principal {
+  background-color: $color-principal !important;
+  border-color: $color-principal !important;
+}
+
+.v-application .principal--text {
+  color: $color-principal !important;
+  caret-color: $color-principal !important;
+}
+
+.secundario {
+  background-color: $color_secundario !important;
+  border-color: $color_secundario !important;
+}
+
+.terceario {
+  background-color: $color_terceario !important;
+  border-color: $color_terceario !important;
+}
+
+.activo {
+  background-color: $color_success !important;
+  border-color: $color_success !important;
+}
+
+.v-application .activo--text {
+  color: $color_success !important;
+  caret-color: $color_success !important;
+}
+
+.proceso {
+  background-color: $color-principal !important;
+  border-color: $color-principal !important;
+}
+
+.v-application .proceso--text {
+  color: $color-principal !important;
+  caret-color: $color-principal !important;
+}
+
+.cancelado {
+  background-color: $color_danger !important;
+  border-color: $color_danger !important;
+}
+
+.v-application .cancelado--text {
+  color: $color_danger !important;
+  caret-color: $color_danger !important;
+}
+
+.peligro {
+  background-color: $color_warning !important;
+  border-color: $color_warning !important;
+}
+
+.v-application .peligro--text {
+  color: $color_warning !important;
+  caret-color: $color_warning !important;
+}
+
+.finalizada {
+  background-color: $color_fin !important;
+  border-color: $color_fin !important;
+}
+
+.v-application .finalizada--text {
+  color: $color_fin !important;
+  caret-color: $color_fin !important;
+}
+
+.default {
+  background-color: $color_default !important;
+  border-color: $color_default !important;
+}
+
+.v-application .default--text {
+  color: $color_default !important;
+  caret-color: $color_default !important;
+}

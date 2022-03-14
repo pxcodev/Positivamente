@@ -1,0 +1,77 @@
+* {
+  font-family: Muli, Helvetica, Arial, sans-serif;
+}
+
+.names {
+  text-transform: capitalize;
+}
+
+#app {
+  background-color: rgb(255, 255, 255) !important;
+  transition: background-color 1s ease;
+}
+
+.centrarv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrar {
+  display: block;
+  margin: auto;
+}
+
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+
+@-moz-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.theme--dark.v-text-field--solo-inverted.v-input--is-focused
+  > .v-input__control
+  > .v-input__slot {
+  background: #c5f8fa !important;
+}
+.theme--dark.v-text-field--solo-inverted.v-input--is-focused
+  .v-select__selection--comma {
+  color: #707070 !important ;
+}
