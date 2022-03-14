@@ -8,6 +8,11 @@
 
 ### The application was developed an Api Rest which is located in the following repository: [API REST](https://github.com/sourclab/ApiPositivamente)
 
+## Development technologies
+
+- VueJs
+- WebSockets
+- Material Design
 ---
 
 ## Functions
