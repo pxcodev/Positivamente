@@ -92,9 +92,7 @@ npm run serve
 ## Screenshots
 
 ![Login](./src/assets/captures/chrome_HPH1r7V0mg.gif "gif")
-| - | - |
-|---|---|
-| ![Login](./src/assets/captures/login.png "login") | ![pass](./src/assets/captures/pass.png "pass") |
+![Login](./src/assets/captures/login.png "login")
 ![pass](./src/assets/captures/pass.png "pass")
 ![Home](./src/assets/captures/Screenshot_1.png "Home")
 ![Home](./src/assets/captures/Screenshot_2.png "Home")
