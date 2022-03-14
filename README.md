@@ -74,6 +74,16 @@ npm install
 npm run serve
 ```
 
+### Note: The database has 3 predefined users: admin, manager and volunteer, the login data are as follows:
+
+| Mail                      |  Password  |
+| ------------------------- | :--------: |
+| admin@admin.com           |   admin    |
+| gestor@gestor.com         |   gestor   |
+| voluntario@voluntario.com | voluntario |
+
+---
+
 ## Screen Captures
 
 ![Login](./src/assets/captures/login.png "login")
