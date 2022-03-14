@@ -84,7 +84,7 @@ npm run serve
 
 ---
 
-## Screen Captures
+## Screenshots
 
 ![Login](./src/assets/captures/chrome_HPH1r7V0mg.gif "gif")
 ![Login](./src/assets/captures/login.png "login")
