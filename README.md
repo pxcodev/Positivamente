@@ -1,74 +1,74 @@
 # Project Positivamente
 
-![logo](./src/assets/captures/logo.png "Logo positivamente")
+![logo](./src/assets/captures/logo.png "Logo positively")
 
-### Desarrollado para una fundacion que brinda ayuda humanitaria, gestionando voluntarios, actividades, jornadas, etc.
+### Developed for a foundation that provides humanitarian aid, managing volunteers, activities, conferences, etc...
 
-### Debido a que la fundacion requeria mejorar los procesos de gestión y control, en sus proyectos y jornadas, así como el de los voluntarios que desearan participar, ofreciendo una experiencia agradable durante la gestión de los distintos módulos que representaran el sistema.
+### Because the foundation required to improve the management and control processes in their projects and conferences, as well as the volunteers who wish to participate, offering a pleasant experience during the management of the various modules that represent the system.
 
-### La aplicacion se le fue desarrollada una Api Rest la cual se encuentra en el siguiente repositorio: [API REST](https://github.com/sourclab/ApiPositivamente)
+### The application was developed an Api Rest which is located in the following repository: [API REST](https://github.com/sourclab/ApiPositivamente)
 
 ---
 
-## Funciones
+## Functions
 
-#### **Todas las funciones de gestion, poseen sus metodos principales de Agregar, Eliminar, Visualizar y actualizar.**
+#### **All management functions have their main methods of Add, Delete, Display and Update**.
 
-### **Paginas iniciales**
+**Home pages**
 
-- Inicio
-- Voluntariado
-- Nosotros
-- Contacto
-- Noticias
-- Proyectos
+- Home
+- Volunteering
+- About Us
+- Contact Us
+- News & Events
+- Projects
 
-### **Panel de control administradores**
+**Administrators control panel**.
 
-- Gestionar Jornadas.
-- Gestionar Proyectos.
-- Gestionar Noticias.
-- Gestion de Usuarios.
-  - Voluntariado
-  - Gestores
-- Visualizacion general de todas las actividades registradas
-- Generacion de Reportes por fecha en formato PDF
-  - Proyectos
-  - Jornadas
-  - Voluntarios
+- Manage Workdays.
+- Manage Projects.
+- Manage News.
+- Manage Users.
+  - Volunteers
+  - Managers
+- General visualization of all registered activities
+- Generation of reports by date in PDF format.
+  - Projects
+  - Workshops
+  - Volunteers
 
-* Respaldo de base de datos
-* Restauracion de base de datos
-* Descarga de manual de usuario (version administrador)
+* Database backup
+* Database Restoration
+* Download of user manual (administrator version)
 
-### **Panel de control usuarios**
+**Users control panel**.
 
-- Visualizacion de jornadas activas para participar
-- Cronograma de jornadas
-- Perfil de usuario
-- Descarga de manual de usuario (version usuario)
+- Visualization of active workshops for participation
+- Schedule of workshops
+- User profile
+- Download user manual (user version)
 
-## Instalacion
+## Installation
 
-1. Clonar repositorio de la aplicacion
+1. Clone application repository
 
 ```bash
 git clone https://github.com/sourclab/Positivamente.git
 ```
 
-2. Clonar repositorio del Api (seguir instrucciones de instalacion del api para continuar)
+2. Clone Api repository (follow api installation instructions to continue)
 
 ```bash
 git clone https://github.com/sourclab/ApiPositivamente.git
 ```
 
-3. Actualizar librerias
+3. Updating libraries
 
 ```bash
 npm install
 ```
 
-4. Iniciar aplicacion
+4. Start application
 
 ```bash
 npm run serve
